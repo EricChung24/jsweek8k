@@ -11,3 +11,52 @@
   margin-left: -36px;
   margin-right: -36px;
 }
+
+
+.compare-wrapper {
+  max-width: 636px;  
+  background-color: $neutral-100;
+}
+
+
+.compare-table th,
+.compare-table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.compare-table thead th {
+    font-weight: 400;
+    border-bottom: 1px solid #757575;
+    text-align: center;
+}
+
+.compare-table tbody tr {
+    border-bottom: 1px solid #757575;
+}
+.check-icon{
+  width: 40px;
+  height: 40px;
+}
+.p79{
+  color: #797979 !important;
+}
+.compare-table {
+  --bs-table-bg: inherit;
+  background-color: inherit;
+}
+
+.compare-table th,
+.compare-table td {
+  background-color: inherit !important;
+}
+.compare-table,
+.compare-table th,
+.compare-table td {
+  border-color: #757575 !important;  /* 依你的 bg-neutral-100 顏色填入 */
+}
+.compare-table td:first-child {
+  white-space: nowrap;
+}
