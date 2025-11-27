@@ -60,3 +60,15 @@
 .compare-table td:first-child {
   white-space: nowrap;
 }
+
+.review-img {
+  width: 120px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
